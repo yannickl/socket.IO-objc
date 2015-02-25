@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name                  = 'socket.IO'
-  s.version               = '0.5.3'
+  s.version               = '0.5.4'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.summary               = 'socket.io v0.7.2+ for iOS devices.'
-  s.description           = 'Interface to communicate between Objective C and Socket.IO with the help of websockets. It's based on fpotter's socketio-cocoa and uses square's SocketRocket.'
+  s.description           = 'Interface to communicate between Objective C and Socket.IO with the help of websockets.'
   s.homepage              = 'https://github.com/yannickl/socket.IO-objc'
   s.authors               = { 'Philipp Kyeck' => 'philipp@beta-interactive.de' }
   s.source                = { :git => 'https://github.com/yannickl/socket.IO-objc.git',
