@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'socket.IO'
-  s.version               = '0.5.4'
+  s.version               = '0.5.5'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.summary               = 'socket.io v0.7.2+ for iOS devices.'
   s.description           = 'Interface to communicate between Objective C and Socket.IO with the help of websockets.'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files          = ['*.{h,m}']
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.8'
-  s.dependency            = 'SocketRocket'
+  s.dependency 'SocketRocket', '~> 0.2'
 end
